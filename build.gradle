@@ -38,11 +38,11 @@ cmake {
 dex {
     buildToolsVersion "28.0.3"
     compilePlatform "android-28"
-    output "boot-display-cutout-mode.jar"
+    output "boot-start-activity-confirm.jar"
 }
 
 magisk {
-    output file("$buildDir/outputs/riru-force-display-cutout-mode.zip")
+    output file("$buildDir/outputs/riru-start-activity-confirm.zip")
     
     map file("$buildDir/outputs/dex/") ,"system/framework/"
     map file("$buildDir/outputs/cmake/armeabi-v7a/shared") ,"system/lib"
@@ -51,7 +51,7 @@ magisk {
 }
 
 signature {
-    targetFile file("$buildDir/outputs/riru-force-display-cutout-mode.zip")
+    targetFile file("$buildDir/outputs/riru-start-activity-confirm.zip")
     buildToolsVersion "28.0.3"
     
     keyStore file("release.keystore")

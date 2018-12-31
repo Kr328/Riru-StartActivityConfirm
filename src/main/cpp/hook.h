@@ -13,3 +13,4 @@
 
 int hook_install();
 void on_post_fork_system_server(JNIEnv *env);
+void on_post_fork_application(JNIEnv *env ,const char *package);

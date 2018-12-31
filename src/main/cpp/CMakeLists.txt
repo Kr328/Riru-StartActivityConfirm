@@ -7,6 +7,6 @@ include_directories(libriru_utils/libxhook)
 
 add_subdirectory(libriru_utils)
 
-add_library(riru_display_cutout_mode SHARED main.c hook.c)
-target_link_libraries(riru_display_cutout_mode riru_utils log)
+add_library(riru_start_activity_confirm SHARED main.c hook.c)
+target_link_libraries(riru_start_activity_confirm riru_utils log)
 

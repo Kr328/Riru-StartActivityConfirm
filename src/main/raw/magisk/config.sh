@@ -29,7 +29,7 @@ AUTOMOUNT=true
 PROPFILE=false
 
 # Set to true if you need post-fs-data script
-POSTFSDATA=false
+POSTFSDATA=true
 
 # Set to true if you need late_start service script
 LATESTARTSERVICE=false
@@ -42,7 +42,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "******************************"
-  ui_print "   Riru - DisplayCutoutMode   "
+  ui_print " Riru - StartActivityConfirm  "
   ui_print "******************************"
 }
 
@@ -99,7 +99,7 @@ set_permissions() {
 # Make update-binary as clean as possible, try to only do function calls in it.
 
 # Riru
-RIRU_MODULE_NAME=display_cutout_mode
+RIRU_MODULE_NAME=start_activity_confirm
 
 check_riru_installed() {
     if [ ! -d "/data/misc/riru" ];then
