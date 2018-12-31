@@ -7,3 +7,4 @@ MODDIR=${0%/*}
 # More info in the main Magisk thread
 
 supolicy --live "allow system_server default_android_service service_manager *"
+supolicy --live "allow untrusted_app default_android_service service_manager *"
