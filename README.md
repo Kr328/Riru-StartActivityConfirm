@@ -1,17 +1,11 @@
-# Riru-ForceDisplayCutoutMode
+# Riru-StartActivityConfirm
 
-A module of [Riru](https://github.com/RikkaApps/Riru). Override activity display cutout mode.
+A module of [Riru](https://github.com/RikkaApps/Riru). Allow block some app start other app by user.
 
 ## Requirements
 
 * [Riru](https://github.com/RikkaApps/Riru) installed.
 * Android Pie
-
-## Settings
-
-- Add application to **blacklist** ( will not change anything for this package )
-
-  Create a empty file which file name is target package name in **/data/misc/riru/modules/display_cutout_mode/blacklist/**
 
 ## Build
 
